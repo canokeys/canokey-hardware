@@ -5,7 +5,8 @@ This repository contains schematics, PCB projects, and Gerber files of Canokeys.
 ## Hardware Variants
 
 - `CanoKey NFC-A`: The Canokey with on-board USB Type-A connector and NFC antenna.
-- `CanoKey Nano-A`: The small-sized Canokey inside a USB Type-A port.
+- `CanoKey NFC-C`: The Canokey with USB Type-C connector and NFC antenna.
+- `CanoKey Nano-A`: The small-sized Canokey which fits inside USB Type-A port.
 
 ## License
 

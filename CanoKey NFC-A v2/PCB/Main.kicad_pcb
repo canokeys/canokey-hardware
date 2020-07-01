@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "CanoKey NFC-A v2")
+    (date 2020-07-01)
+    (company CanoKey)
+    (comment 2 MuratovAS)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -63,9 +70,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
-      (usegerberattributes true)
-      (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -78,15 +85,15 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "/media/muratovas/NTFS/Project/GitHub/canokey-hardware/CanoKey NFC-A v2/Manufacturing/"))
   )
 
   (net 0 "")
@@ -186,7 +193,7 @@
     (add_net "Net-(U4-Pad6)")
   )
 
-  (module MAS_Package_nostd:CanoKeys (layer B.Cu) (tedit 5EFC8925) (tstamp 5EFD1246)
+  (module MAS_Package_nostd:CanoKeys (layer B.Cu) (tedit 5EFC8925) (tstamp 5EFCA5AB)
     (at 145.034 101.981)
     (fp_text reference G*** (at -0.508 5.08) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -1967,7 +1974,7 @@
   (segment (start 164.196 100.65) (end 164.196 101.234012) (width 0.2) (layer F.Cu) (net 42))
   (segment (start 164.196 101.234012) (end 163.83 101.600012) (width 0.2) (layer F.Cu) (net 42))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5EFCB4C4) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.3) (smoothing chamfer) (radius 1))
@@ -2055,7 +2062,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5EFCB4C1) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.2) (thermal_bridge_width 0.3) (smoothing chamfer) (radius 1))
